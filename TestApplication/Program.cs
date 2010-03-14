@@ -5,11 +5,12 @@ using System.Text;
 
 namespace TestApplication
 {
-    class Program
+  class Program
+  {
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World");
-        }
+      Console.WriteLine("Hello Git");
+      Console.ReadKey();
     }
+  }
 }
